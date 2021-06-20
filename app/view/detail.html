@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/public/css/base.css">
+  </head>
+  <body>
+    <h1><%= result.title %></h1>
+    <h1><%= helper.formatData(1201860336) %></h1>
+    <h3><%= result.summary %></h1>
+    <span> --- <%= result.dateline %></span>
+    <%- result.content %>
+  </body>
+</html>
